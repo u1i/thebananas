@@ -1,0 +1,9 @@
+Feature / Dimension,"""Nano Banana 1 Flash"" (Official: Nano Banana)","""Nano Banana 1 Pro"" (Official: Nano Banana Pro)",Nano Banana 2 Flash (Official: Nano Banana 2)
+Base Architecture,Gemini 2.5 Flash Image,Gemini 3.0 Pro Image,Gemini 3.1 Flash Image
+Release Date,August 2025,November 2025,February 2026
+Max Resolution,~1K,Up to 4K,512px up to 4K
+Target Use Case,Rapid prototyping & basic ideation,Studio-quality & deep reasoning,High-throughput production pipelines
+Text Rendering,Basic,Advanced (High accuracy),Advanced (Includes in-image translation/localization)
+Prompt Adherence,Basic (Struggles with spatial logic),High (Strong spatial reasoning),"High (Supports configurable ""thinking"" levels)"
+Web Grounding,No,No,Yes (Real-time Google Search integration)
+Inference Speed,Very Fast,Moderate (Compute-heavy),Very Fast (Sub-2-second generation)

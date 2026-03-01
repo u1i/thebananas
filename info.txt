@@ -1,0 +1,30 @@
+The naming convention is definitely a bit of a maze! Google officially drops the "1" from the first generation and often omits "Flash" from the base models, which is exactly where the confusion stems from.
+
+Here is a technical breakdown clarifying the three models, tracking their underlying architectures and production capabilities:
+
+### The Nano Banana Lineup
+
+| Feature / Dimension | "Nano Banana 1 Flash" <br>
+
+<br>*(Official: Nano Banana)* | "Nano Banana 1 Pro" <br>
+
+<br>*(Official: Nano Banana Pro)* | Nano Banana 2 Flash <br>
+
+<br>*(Official: Nano Banana 2)* |
+| --- | --- | --- | --- |
+| **Base Architecture** | Gemini 2.5 Flash Image | Gemini 3.0 Pro Image | Gemini 3.1 Flash Image |
+| **Release Date** | August 2025 | November 2025 | February 2026 |
+| **Max Resolution** | ~1K | Up to 4K | 512px up to 4K |
+| **Target Use Case** | Rapid prototyping & basic ideation | Studio-quality & deep reasoning | High-throughput production pipelines |
+| **Text Rendering** | Basic | Advanced (High accuracy) | Advanced (Includes in-image translation/localization) |
+| **Prompt Adherence** | Basic (Struggles with spatial logic) | High (Strong spatial reasoning) | High (Supports configurable "thinking" levels) |
+| **Web Grounding** | No | No | Yes (Real-time Google Search integration) |
+| **Inference Speed** | Very Fast | Moderate (Compute-heavy) | Very Fast (Sub-2-second generation) |
+
+---
+
+### Key Architectural Shifts
+
+* **The Baseline (Nano Banana):** Originally designed strictly for speed and low-cost generation. It handles rapid prototyping well but struggles to maintain fidelity when prompted for complex spatial layouts, typography, or multi-character consistency.
+* **The Heavyweight (Nano Banana Pro):** Stepping up to the Gemini 3.0 Pro architecture, this model solves the text rendering and spatial logic issues. It easily handles multi-subject references, making it highly consistent, but it comes with higher latency and inference costs.
+* **The Pipeline Optimizer (Nano Banana 2):** This model shifts back to a highly efficient Flash architecture (Gemini 3.1 Flash Image) but retains the Pro-tier outputs (like 4K resolution and precise typography). Notably, it introduces real-time web grounding via Google Search to accurately render specific, real-world subjects. It also exposes configurable "thinking levels" (Minimal vs. High/Dynamic), allowing you to manually trade off latency for deeper reasoning during complex prompt execution.
