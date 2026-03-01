@@ -4,7 +4,7 @@ import re
 
 TESTS_FILE = "tests2.md"
 INPUT_DIR = "test_results2" 
-OUTPUT_DIR = "dist"
+OUTPUT_DIR = "docs"
 
 MODELS = [
     {
